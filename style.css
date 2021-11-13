@@ -45,8 +45,24 @@ html {
 }
 
 i + div {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.month i {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.month h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+
+.month p {
+    font-size: 1.3rem;
 }
 
 
