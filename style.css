@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+html {
+    font-size: 75%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #142D4C;
+    color: #ECECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar {
+    width: 45em;
+    height: 52rem;
+    background-color: #385170;
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+.month {
+    width: 100%;
+    height: 12rem;
+    background-color: #9FD3C7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    text-shadow: .05rem .05rem rgba(0, 0, 0, 0.7)
+}
+
+i + div {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+
+
+
